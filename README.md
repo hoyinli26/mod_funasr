@@ -5,6 +5,7 @@
 export PKG_CONFIG_PATH=/usr/local/freeswitch/lib/pkgconfig
 ```
 ```
+git submodule update --init --recursive
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make
